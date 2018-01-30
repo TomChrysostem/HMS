@@ -2,3 +2,20 @@
 	border-radius: 0px !important;
 	margin-bottom: 0px !important;
 }
+.sidenav {
+height:90vh;
+float: left;
+padding-left: 0px;
+padding-right: 1px;
+position: relative;
+}
+.admin-nav {
+background-color: #fff;
+}
+.admin-nav li {
+    border-bottom: 1px solid #09594b;
+}
+.admin-nav li a {
+    color: #09594b;
+    font-size: 18px;
+}
