@@ -29,4 +29,10 @@ class ForgotPasswordController extends Controller
     {
         $this->middleware('guest:admin');
     }
+
+    public function showLinkRequestForm()
+    {
+        return view('admin.passwords.email');
+    }
+
 }

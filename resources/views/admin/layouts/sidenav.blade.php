@@ -1,10 +1,20 @@
 <ul class="list-group">
-    <li class="list-group-item list-group-item-success">Success item</li>
-    <li class="list-group-item list-group-item-secondary">Secondary item</li>
-    <li class="list-group-item list-group-item-info">Info item</li>
-    <li class="list-group-item list-group-item-warning">Warning item</li>
-    <li class="list-group-item list-group-item-danger">Danger item</li>
-    <li class="list-group-item list-group-item-primary">Primary item</li>
-    <li class="list-group-item list-group-item-dark">Dark item</li>
-    <li class="list-group-item list-group-item-light">Light item</li>
+    <li class="">
+    	<a href="{{ url('admin/Staff')}}">Staff List<div class="icon-space"><i class="fas fa-user"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Doctor List<div class="icon-space"><i class="fas fa-user-md"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Nurse List<div class="icon-space"><i class="fab fa-medrt"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Patients List<div class="icon-space"><i class="fas fa-wheelchair"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Medicine import<div class="icon-space"><i class="far fa-medkit"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Medicine Export<div class="icon-space"><i class="fas fa-medkit"></i></div></a>
+    </li>
 </ul>
