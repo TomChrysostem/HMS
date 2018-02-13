@@ -1,3 +1,3 @@
- <script src="{{ asset('js/jquery.js')}}"></script>
- <script src="{{ asset('js/popper.js')}}"></script>
- <script src="{{ asset('js/bootstrap.min.js')}}"></script>
+<script src="{{ asset('bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{ asset('bootstrap/js/app.js')}}"></script>
+ <script defer src="{{ asset('https://use.fontawesome.com/releases/v5.0.6/js/all.js') }}"></script>

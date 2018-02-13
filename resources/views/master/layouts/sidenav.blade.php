@@ -1,2 +1,17 @@
-<p class="text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<ul class="list-group">
+    <li class="">
+    	<a href="">Doctor List<div class="icon-space"><i class="fas fa-user-md"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Nurse List<div class="icon-space"><i class="fab fa-medrt"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Patients List<div class="icon-space"><i class="fas fa-wheelchair"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Medicine import<div class="icon-space"><i class="far fa-medkit"></i></div></a>
+    </li>
+    <li class="">
+    	<a href="">Medicine Export<div class="icon-space"><i class="fas fa-medkit"></i></div></a>
+    </li>
+</ul>

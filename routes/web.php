@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+/*Admin*/
 Route::get('admin/home','AdminController@index');
 Route::get('admin','Admin\LoginController@showLoginForm')->name('admin.login');
 
@@ -33,6 +33,16 @@ Route::post('admin-password/email','Admin\ForgotPasswordController@sendResetLink
 Route::get('admin-password/reset','Admin\ForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
 Route::post('admin-password/reset','Admin\ResetPasswordController@reset');
 Route::get('admin-password/reset/{token}','Admin\ResetPasswordController@showResetForm')->name('admin.password.reset');
+/*Admin*/
+
+/*Master*/
+Route::get('master/home','MasterController@index');
+Route::get('master','Master\LoginController@showLoginForm')->name('master.login');
+Route::post('master','Master\LoginController@login');
+Route::post('master/logout','Master\LoginController@logout')->name('master.logout');
+
+/*Master*/
+
 
 /*Staff*/
 Route::get('admin/staff','StaffController@index')->name('staff.index');
@@ -42,6 +52,11 @@ Route::post('admin/staff/create','StaffController@store');
 Route::get('admin/staff/edit/{id}','StaffController@edit')->name('staff.edit');
 Route::post('admin/staff/edit/{id}','StaffController@update');
 
+=======
+Route::get('admin/staff/edit/{id}','StaffController@edit')->name('staff.edit');
+Route::post('admin/staff/edit/{id}','StaffController@update');
+
+>>>>>>> error_logout admin
 Route::get('admin/staff/delete/{id}','StaffController@destory')->name('staff.delete');
 Route::get('admin/staff/view/{id}','StaffController@show')->name('staff.view');
 /*Staff*/
