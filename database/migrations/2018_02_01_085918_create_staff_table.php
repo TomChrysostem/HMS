@@ -19,7 +19,6 @@ class CreateStaffTable extends Migration
             $table->string('position');
             $table->string('email')->unique();
             $table->string('password');
-            $table->string('comform_password');
             $table->string('department');
             $table->timestamps();
         });

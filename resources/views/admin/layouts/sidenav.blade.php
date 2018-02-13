@@ -1,6 +1,6 @@
 <ul class="list-group">
     <li class="">
-    	<a href="{{ url('admin/Staff')}}">Staff List<div class="icon-space"><i class="fas fa-user"></i></div></a>
+    	<a href="{{ url('admin/staff')}}">Staff List<div class="icon-space"><i class="fas fa-user"></i></div></a>
     </li>
     <li class="">
     	<a href="">Doctor List<div class="icon-space"><i class="fas fa-user-md"></i></div></a>

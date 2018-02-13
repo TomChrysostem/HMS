@@ -1,11 +1,11 @@
-@extends('admin.layouts.login-layout')
+@extends('admin.layouts.app')
 
 @section('content')
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Register</div>
+                <div class="panel-heading">Create Staff</div>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST">
@@ -39,6 +39,14 @@
                             </div>
                         </div>
 
+                      <div class="form-group">
+                            <label for="position" class="col-md-4 control-label">position</label>
+
+                            <div class="col-md-6">
+                          <input type="text" class="form-control" name="position" required>
+                            </div>
+                        </div>
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
 
@@ -58,6 +66,22 @@
 
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="department" class="col-md-4 control-label">Department</label>
+
+                            <div class="col-md-6">
+                                <input id="department" type="text" class="form-control" name="department" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="department" class="col-md-4 control-label">Profile Image</label>
+
+                            <div class="col-md-6">
+                                <input type="file" />
                             </div>
                         </div>
 
