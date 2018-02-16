@@ -15,9 +15,17 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-		  <!-- Brand/logo -->
-		  <a class="navbar-brand" href="#">Admin Panel</a>
-	</nav>
+			<!-- Brand/logo -->
+			<a class="navbar-brand" href="#">Admin Panel</a>
+				<!-- Right Side Of Navbar -->
+				<div class="collapse navbar-collapse" id="app-navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+							<!-- Authentication Links -->
+									<li><a href="{{ route('admin.login') }}">Login</a></li>
+									<li><a href="{{ route('admin.register') }}">Register</a></li>
+					</ul>
+				</div>
+		</nav>
 	<div class="container-fluid" >
 		@yield('content')
 	</div>

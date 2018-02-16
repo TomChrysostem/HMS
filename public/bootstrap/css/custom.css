@@ -1,6 +1,16 @@
 .navbar {
 	border-radius: 0px !important;
 	margin-bottom: 0px !important;
+	background-color: #850f13;
+}
+.navbar-brand {
+	color:#fff;
+}
+.navbar-brand:hover {
+	color:#fff;
+}
+.dropdown a {
+	color:#fff;
 }
 .sidenav {
 height:90vh;
@@ -8,6 +18,7 @@ float: left;
 padding-left: 0px;
 padding-right: 1px;
 position: relative;
+background-color: #f5dbdc;
 }
 .admin-nav {
 background-color: #fff;
@@ -18,4 +29,47 @@ background-color: #fff;
 .admin-nav li a {
     color: #09594b;
     font-size: 18px;
+
+}
+.list-group{
+list-style: none;
+}
+.list-group li a{
+	color:#850f13;
+	width: 249px;
+	margin-left: -15px;
+	background-color:#fff;
+	border-bottom:3px solid #850f13;
+	padding: 10px;
+	font-size: 18px;
+	display: block;
+}
+
+.list-group li a:hover {
+	background-color:#850f13;
+	color:#fff;
+	text-decoration:none;
+}
+.icon-space {
+	float: right;
+	width: auto;
+}
+
+.right-content {
+/* 	z-index: -1; */
+}
+.navbar i {
+	font-size:30px;
+}
+.footer-color {
+	background-color: #850f13;
+}
+
+.custom-table {
+ border:1px solid #850f13;
+ margin-top: 15px;
+}
+.custom-table th {
+	background-color: #850f13;
+	color:#fff;
 }

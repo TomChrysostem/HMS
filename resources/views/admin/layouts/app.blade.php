@@ -14,9 +14,9 @@
 	@include('admin.layouts.link')
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-sm">
 		  <!-- Brand/logo -->
-		  <a class="navbar-brand" href="#">Admin Panel</a>
+		  <a class="navbar-brand" href="#"><i class="fas fa-heartbeat"></i>Admin Panel</a>
 		                  <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
@@ -28,7 +28,7 @@
                         <!-- Authentication Links -->
                         @if (Auth::guest())
                             <li><a href="{{ route('admin.login') }}">Login</a></li>
-                            <li><a href="{{ route('admin.register') }}">Register</a></li>
+                            <!-- <li><a href="{{ route('admin.register') }}">Register</a></li> -->
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -55,16 +55,16 @@
 	</nav>
 	<div class="container-fluid" >
 			<div class="row">
-			  <div class="col-sm-3 col-md-2 col-lg-2 bg-success sidenav">
+			  <div class="col-sm-3 col-md-2 col-lg-2 sidenav">
 				@include('admin.layouts.sidenav')
 			  </div>
-			  <div class="col-sm-9 col-md-10 col-lg-10 bg-warning">
+			  <div class="col-sm-9 col-md-10 col-lg-10 right-content">
 				@yield('content')
 			  </div>
 			</div>
 	</div>
 	<footer>
-		<div class="col-sm-12 col-md-12 col-lg-12 bg-danger text-center text-white">
+		<div class="col-lg-12 text-center text-white footer-color">
 			<p class="pt-3">@copyright 2018 Hospital Management System</p>
 		</div>
 	</footer>
