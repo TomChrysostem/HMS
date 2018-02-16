@@ -14,7 +14,7 @@ class AddProfileImageToStaff extends Migration
     public function up()
     {
         Schema::table('staff', function (Blueprint $table) {
-            $table->text('profile_image');
+            $table->text('profile_image')->nullable();
         });
     }
 

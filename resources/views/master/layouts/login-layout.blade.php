@@ -11,17 +11,17 @@
 	<title>{{ config('app.name', 'Laravel') }}</title>
 
 	<!-- Styles -->
-	@include('admin.layouts.link')
+	@include('master.layouts.link')
 </head>
 <body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+	<nav class="navbar navbar-expand-sm master-nav">
 		  <!-- Brand/logo -->
-		  <a class="navbar-brand" href="#">Admin Panel</a>
+		  <a class="navbar-brand" href="#">Master Panel</a>
 	</nav>
 	<div class="container-fluid" >
 		@yield('content')
 	</div>
 	<!-- Scripts -->
-	@include('admin.layouts.script')
+	@include('master.layouts.script')
 </body>
 </html>

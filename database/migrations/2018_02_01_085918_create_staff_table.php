@@ -20,6 +20,7 @@ class CreateStaffTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('department');
+            $table->rememberToken();
             $table->timestamps();
         });
     }
