@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('bootstrap/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('bootstrap/css/mdb.min.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -76,5 +77,10 @@
 
     <!-- Scripts -->
     <script src="{{ asset('bootstrap/js/app.js') }}"></script>
+    <script src="{{ asset('bootstrap/js/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ asset('bootstrap/js/popper.min.js') }}"></script>
+    <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('bootstrap/js/mdb.min.js') }}"></script>
+
 </body>
 </html>

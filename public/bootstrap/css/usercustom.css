@@ -1,0 +1,111 @@
+/* First narrow nav at home page */
+.social-nav {
+	height:43px;
+	background-color: #09a9b9;
+}
+.small-nav {
+	margin: 10px 0px 20px 120px;
+	display: block;
+	font-size: 14px;
+}
+.social-list {
+	list-style: none;
+	float:right;
+}
+.social-list li {
+	margin-top: 10px;
+	float:left;
+	margin-right: 30px;
+}
+.content-and-logo {
+	height:147px;
+}
+.content-and-logo>.col-8 {
+	margin-left: 100px;
+}
+.contact-blog {
+	width: 262px;
+	height: 105px;
+	border:1px solid #cdcdcd;
+	float:left;
+	margin: 21px 10px 10px 10px;
+	background-color: #fafafa;
+}
+.contact-icon {
+	color:#09a9b9;
+	font-size: 26px;
+  line-height: 1.3em;
+  margin-top: 10px;
+}
+.contact-icon svg {
+	margin-top: 10px;
+}
+.contact-blog h5 {
+font-weight: 400;
+}
+/* First narrow nav at home page */
+
+/* navbar */
+.navbar {
+background-color: #09a9b9;
+color:#fff;
+margin-left: -15px;
+margin-right: -15px;
+}
+.nav-link {
+	color:#fff;
+}
+
+/* navbar */
+
+/* Slider */
+.fa-angle-double-left , .fa-angle-double-right {
+font-size :90px;
+}
+.service-content {
+	margin-top: 50px;
+}
+.service-content h3{
+	color:#09a9b9;
+}
+.service-content p{
+	margin-top: 20px;
+	padding: 0px 100px 0px 100px;
+}
+.service-row {
+	background-color:#fafafa;
+}
+/* Slider */
+
+/* Service-content */
+.service-content {
+	margin-top: 50px;
+}
+.service-content h3{
+	color:#09a9b9;
+}
+.service-content p{
+	margin-top: 20px;
+	padding: 0px 100px 0px 100px;
+}
+.service-row {
+	background-color:#fafafa;
+	margin-bottom: 30px;
+}
+.service-blog {
+	background-color: #fff;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
+}
+.div-center {
+	margin:0 auto;
+}
+.our-timetable {
+	background-color:#09a9b9;
+	color:#ffffff;
+	width: 30%;
+	margin:30px auto;
+	font-size: 60px;
+}
+/* Service-content */
