@@ -142,11 +142,59 @@
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col" style="background-color:red;"></div>
-				<div class="col" style="background-color:black;"></div>
-				<div class="col"></div>
-				<div class="col"></div>
+			<div class="row time-service">
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/rewind-time.png')}}"/></div>
+						<h5>Opening Hours</h5>
+						<ul class="list-group">
+							<li class="list-group-item">
+								<div><font class="time-color" style="vertical-align: inherit;">8:00 - 20:30</font></div>
+								<div><strong><font class="day-list" style="vertical-align: inherit;">Monday - Friday</font></strong></div>
+							</li>
+							<li class="list-group-item">
+								<div><font class="time-color" style="vertical-align: inherit;">8:30 - 18:00</font></div>
+								<div><strong><font class="day-list" style="vertical-align: inherit;">Saturday</font></strong></div>
+							</li>
+							<li class="list-group-item">
+								<div><font class="time-color" style="vertical-align: inherit;">9:00 - 20:30</font></div>
+								<div><strong><font class="day-list" style="vertical-align: inherit;">Sunday</font></strong></div>
+							</li>
+						</ul>
+				</div>
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/appointment-book.png')}}"/></div>
+					<h5>Appointment</h5>
+					<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+					<div class="btn-time-blog"><a href="#">Make an appointment</a></div>
+				</div>
+
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/healthcare.png')}}"/></div>
+					<h5>Emergency calls</h5>
+					<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+					<div class="btn-time-blog"><a href="#">Contact Us</a></div>
+				</div>
+
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/hospital.png')}}"/></div>
+					<h5>Since 1970</h5>
+					<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+					<div class="btn-time-blog"><a href="">More Information</a></div>
+				</div>
+
+			</div>
+			<div class="row view">
+    			<img src="{{asset('bootstrap/img/backimg.jpg')}}" class="img-fluid" alt="">
+			    <div class="mask flex-center rgba-black-strong">
+			    <!-- 	<div class="col-md-12">
+			    	<h3>Our Service</h3>
+			    							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			    </div> -->
+						<div class="col time-blog"></div>
+						<div class="col time-blog"></div>
+						<div class="col time-blog"></div>
+						<div class="col time-blog"></div>
+			    </div>
 			</div>
 		</div>
 	</main>
