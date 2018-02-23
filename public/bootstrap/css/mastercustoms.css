@@ -101,3 +101,11 @@ list-style: none;
 	background-color: #091D34;
 }
 /* Footer */
+
+
+/* Login Blade */
+.view {
+	background-image: url("../img/backimg.jpg");
+	height: 100vh;
+}
+/* Login BLade */

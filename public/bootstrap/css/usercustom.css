@@ -1,4 +1,11 @@
 /* First narrow nav at home page */
+*{
+font-family: 'Bree Serif', serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Pompiere', cursive;
+font-family: 'Pridi', serif;
+}
 .social-nav {
 	height:43px;
 	background-color: #09a9b9;
@@ -90,7 +97,6 @@ font-size :90px;
 }
 .service-row {
 	background-color:#fafafa;
-	margin-bottom: 30px;
 	padding-bottom: 20px;
 }
 .service-blog {
@@ -103,12 +109,10 @@ font-size :90px;
 	margin:0 auto;
 }
 .our-timetable {
-	background-color:#09a9b9;
 	color:#ffffff;
 	width: 30%;
 	margin:30px auto;
 	font-size: 60px;
-	margin: 20px 0px 15px 0px;
 
 }
 .time-blog h5 {
@@ -151,7 +155,7 @@ font-size :90px;
 	color:#898989;
 	font-size: 14px;
 }
-.time-blog a {
+.btn-time-blog a {
 	background-color:#09a9b9;
 	color:#fff;
 	padding: 15px 20px 15px 20px;
@@ -171,4 +175,38 @@ font-size :90px;
 .view img {
 	width: 100%;
  }
+ .read_more {
+
+ }
+ .hospital-footer {
+ 	background-color: #09a9b9;
+ }
+ .footer-service img {
+ 	width: 100%;
+ }
+ .footer-service {
+ 	margin-bottom: 20px;
+ }
+ .social-network li{
+	margin-bottom: 15px;
+ }
+ .logo-and-moto p {
+ 	font-size: 11px;
+ 	margin-top: 5px;
+ 	margin-left: 5px;
+ }
+ .logo-and-moto img {
+ 	float: left;
+ 	margin-right: 15px;
+ }
+ .logo-and-moto span {
+	vertical-align: middle;
+ }
+ .logo-and-moto h6 {
+ 	float:right;
+ }
+ .fa-phone-square , .fa-envelope {
+	margin-right: 10px;
+ }
+
 /* Service-content */

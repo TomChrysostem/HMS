@@ -54,7 +54,9 @@
 						<span>toeyadanar.tya@gmail.com</span>
 					</div>
 				</div>
-				<div class="col-4"></div>
+				<div class="col-2">
+
+				</div>
 			</div>
 			<!--Main Navigation-->
 			<nav class="navbar navbar-expand-lg">
@@ -183,22 +185,142 @@
 				</div>
 
 			</div>
-			<div class="row view">
-    			<img src="{{asset('bootstrap/img/backimg.jpg')}}" class="img-fluid" alt="">
-			    <div class="mask flex-center rgba-black-strong">
-			    <!-- 	<div class="col-md-12">
-			    	<h3>Our Service</h3>
-			    							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-			    </div> -->
-						<div class="col time-blog"></div>
-						<div class="col time-blog"></div>
-						<div class="col time-blog"></div>
-						<div class="col time-blog"></div>
-			    </div>
+			<div class="row">
+				<div class="text-center service-content">
+					<h3>Our Service</h3>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+				</div>
+			</div>
+
+			<div class="row">
+						<div class="col time-blog text-center">
+							<div class="our-timetable"><img src="{{asset('bootstrap/img/microscope.png')}}"/></div>
+							<h5>Blood Test</h5>
+							<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+							<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+						</div>
+						<div class="col time-blog text-center">
+							<div class="our-timetable"><img src="{{asset('bootstrap/img/syringe (1).png')}}"/></div>
+							<h5>Cancer Clinic</h5>
+							<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+							<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+						</div>
+						<div class="col time-blog text-center">
+							<div class="our-timetable"><img src="{{asset('bootstrap/img/ambulance.png')}}"/></div>
+							<h5>24/7 service</h5>
+							<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+							<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+						</div>
+						<div class="col time-blog text-center">
+							<div class="our-timetable"><img src="{{asset('bootstrap/img/nurse.png')}}"/></div>
+							<h5>Qualified doctors</h5>
+							<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+							<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+						</div>
+			</div>
+
+			<div class="row">
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/hospital (2).png')}}"/></div>
+						<h5>Medical facilities</h5>
+						<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+						<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+				</div>
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/microscope (2).png')}}"/></div>
+					<h5>Pathology</h5>
+					<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+					<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+				</div>
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/magnifying-glass.png')}}"/></div>
+					<h5>Rehabilitation</h5>
+					<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+					<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+				</div>
+				<div class="col time-blog text-center">
+					<div class="our-timetable"><img src="{{asset('bootstrap/img/aids.png')}}"/></div>
+					<h5>Medical advice</h5>
+					<p>Leporiusam Dolores Out Infecture Com Accenture Delictos Seki Lorem Epsom Dolor Set Amit, Consectitor.</p>
+					<a href="#" class="read_more"><i class="fas fa-angle-right"></i>Read More</a>
+				</div>
+				</div>
 			</div>
 		</div>
 	</main>
-	<footer></footer>
+	<footer class="page-footer hospital-footer">
+
+		<div class="container">
+			<div class="row">
+				<div class="col text-right">
+					<h6>FLICKR FIDD</h6>
+					<div class="row">
+						<div class="col footer-service"><img src="{{asset('bootstrap/img/4.png')}}" /></div>
+						<div class="col footer-service"><img src="{{asset('bootstrap/img/hospital-services.jpg')}}" /></div>
+					</div>
+					<div class="row">
+						<div class="col footer-service"><img src="{{asset('bootstrap/img/hospital.food_.istock1.jpg')}}" /></div>
+						<div class="col footer-service"><img src="{{asset('bootstrap/img/lead.jpg')}}" /></div>
+					</div>
+					<div class="row">
+						<div class="col footer-service"><img src="{{asset('bootstrap/img/services-04.jpg')}}" /></div>
+						<div class="col footer-service"><img src="{{asset('bootstrap/img/emergency_2414983b.jpg')}}" /></div>
+					</div>
+				</div>
+				<div class="col text-right">
+					<h6>SOCIAL NETWORK</h6>
+					<ul class="social-network">
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</li>
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</li>
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</li>
+					</ul>
+				</div>
+				<div class="col text-right">
+					<h6>LATEST NEWS</h6>
+					<ul class="social-network">
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</li>
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</li>
+						<li>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</li>
+					</ul>
+				</div>
+				<div class="col logo-and-moto">
+					<h6 class="text-left"><img src = "{{asset('bootstrap/img/medicine.png')}}" />
+						<div class="text-right" style="margin-top: 3px; margin-left: -63px;">
+							<span> Medical Service </span><br/>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						</div>
+					</h6>
+					<ul class="text-right">
+						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+						<li>
+							<phone><i class="fas fa-phone-square"></i>+95 9421155324</phone><br>
+							<mail><i class="fas fa-envelope"></i>toeyadanar.tya@gmail.com</mail>
+							<address>No (102 ) Myathida Qua , Bochan , Mingalardon , Yangon</address>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--Copyright-->
+		<div class="footer-copyright">
+				<div class="container-fluid">
+						© 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+				</div>
+		</div>
+		<!--/.Copyright-->
+	</footer>
 	<!-- Start Modal-popup -->
 		<!-- Modal -->
 		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -222,6 +344,5 @@
 		</div>
 		<!-- Start Modal-popup -->
 		@include('user.layouts.script')
-
 </body>
 </html>
