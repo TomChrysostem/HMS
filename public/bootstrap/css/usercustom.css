@@ -90,7 +90,6 @@ font-size :90px;
 }
 .service-row {
 	background-color:#fafafa;
-	margin-bottom: 30px;
 	padding-bottom: 20px;
 }
 .service-blog {
@@ -103,12 +102,10 @@ font-size :90px;
 	margin:0 auto;
 }
 .our-timetable {
-	background-color:#09a9b9;
 	color:#ffffff;
 	width: 30%;
 	margin:30px auto;
 	font-size: 60px;
-	margin: 20px 0px 15px 0px;
 
 }
 .time-blog h5 {
