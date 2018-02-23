@@ -91,6 +91,7 @@ font-size :90px;
 .service-row {
 	background-color:#fafafa;
 	margin-bottom: 30px;
+	padding-bottom: 20px;
 }
 .service-blog {
 	background-color: #fff;
@@ -107,5 +108,67 @@ font-size :90px;
 	width: 30%;
 	margin:30px auto;
 	font-size: 60px;
+	margin: 20px 0px 15px 0px;
+
 }
+.time-blog h5 {
+	color:#898989;
+	margin-bottom: 15px;
+}
+.time-blog {
+	background-color: #fff;
+	margin-right: 40px;
+	min-height: 100px;
+}
+.time-blog:first-child {
+	margin-left:40px;
+}
+.list-group {
+	margin-bottom: 20px;
+	margin-left: -10px !important;
+	margin-right: -10px !important;
+}
+
+.time-color {
+	background-color:#09a9b9;
+	color:#fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	padding: 5px;
+	font-weight: bold;
+}
+.day-list {
+	font-weight: bold;
+}
+.list-group-item div{
+	float: left;
+}
+.time-service {
+	background-color:#fafafa;
+	padding-bottom: 70px;
+}
+.time-blog p , .service-content p{
+	color:#898989;
+	font-size: 14px;
+}
+.time-blog a {
+	background-color:#09a9b9;
+	color:#fff;
+	padding: 15px 20px 15px 20px;
+	box-shadow: 0 8px 5px -5px #121212 !important;
+
+}
+.btn-time-blog {
+	margin-top: 38px;
+}
+.bg-img {
+/* 	background-image: url('../img/backimg.jpg'); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 603px;
+
+}
+.view img {
+	width: 100%;
+ }
 /* Service-content */
