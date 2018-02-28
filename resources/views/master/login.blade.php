@@ -3,7 +3,7 @@
 
 	<div class="row view">
 		<div class="mask flex-center rgba-black-strong">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-8 col-md-offset-2 login-blog">
 					<div class="panel panel-default">
 						<div class="panel-heading">Master Login</div>
 

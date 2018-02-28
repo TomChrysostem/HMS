@@ -108,4 +108,7 @@ list-style: none;
 	background-image: url("../img/backimg.jpg");
 	height: 100vh;
 }
+.login-blog {
+	background-color: #fff;
+}
 /* Login BLade */
