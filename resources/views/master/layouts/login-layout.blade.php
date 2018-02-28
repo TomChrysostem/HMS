@@ -21,6 +21,7 @@
 	<div class="container-fluid" >
 		@yield('content')
 	</div>
+	@include('master.layouts.footer')
 	<!-- Scripts -->
 	@include('master.layouts.script')
 </body>

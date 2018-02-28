@@ -2,7 +2,6 @@
 .navbar {
 	border-radius: 0px !important;
 	margin-bottom: 0px !important;
-	background-color:#236AB9;
 }
 .navbar-brand {
 	color:#fff;
@@ -11,7 +10,7 @@
 	color:#fff;
 }
 .master-nav {
-background-color: #091D34;
+background-color: #09a9b9;
 }
 .dropdown a {
 	color:#fff;
@@ -107,8 +106,16 @@ list-style: none;
 .view {
 	background-image: url("../img/backimg.jpg");
 	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .login-blog {
 	background-color: #fff;
 }
 /* Login BLade */
+
+.hospital-footer{
+	background-color: #09a9b9;
+	padding: 15px;
+	color:#fff;
+}
