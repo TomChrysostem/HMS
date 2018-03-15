@@ -14,4 +14,7 @@
     <li class="">
     	<a href="">Medicine Export<div class="icon-space"><i class="fas fa-medkit"></i></div></a>
     </li>
+    <li class="">
+        <a href="{{ url('master/department')}}">Department<div class="icon-space"><i class="fas fa-medkit"></i></div></a>
+    </li>
 </ul>

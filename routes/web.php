@@ -40,6 +40,7 @@ Route::get('master/home','MasterController@index');
 Route::get('master','Master\LoginController@showLoginForm')->name('master.login');
 Route::post('master','Master\LoginController@login');
 Route::post('master/logout','Master\LoginController@logout')->name('master.logout');
+Route::get('master/department','DepartmentController@index');
 /*Master*/
 
 
